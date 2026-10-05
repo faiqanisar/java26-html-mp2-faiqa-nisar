@@ -8,4 +8,4 @@ Original restaurang:
 https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.barbq-tonight.com/&ved=2ahUKEwiv8c_WyqKXAxXzIxAIHalwIHIQFnoECCQQAQ&usg=AOvVaw0pQOD0RPiYn4YhESxGjNX5
 
 Student:
-https://faiqanisar.github.io/Lokal-restaurang/
+https://faiqanisar.github.io/java26-html-mp2-faiqa-nisar/
