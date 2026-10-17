@@ -429,13 +429,15 @@ main {
 .visite-part h2 {
     margin-bottom: 15px;
     color: var(--gold);
-    font-size: 14px;
+    font-size: 20px;
     font-weight: bold;
+    line-height: 1;
 }
 
 .about-part p {
     color: #fbdcdc;
-    font-size: 10px;
+    font-size: 15px;
+    line-height: 1.8;
     text-align: left;
     word-spacing: normal;
 }
@@ -443,10 +445,10 @@ main {
 .contact-info p {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 6px;
     margin: 15px 0;
     color: #fbdcdc;
-    font-size: 10px;
+    font-size: 14px;
     line-height: 1;
     overflow-wrap: anywhere;
 }
@@ -478,14 +480,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-   height: 200px;
 }
 
 .view-col img {
     display: block;
     width: 100%;
-    max-width: 280px;
-    height: 200px;
+    height: 100%;
     object-fit: cover;
     border: 4px solid var(--gold);
     border-radius: 15px;
@@ -494,17 +494,17 @@ main {
 /* CONTACT PAGE */
 
 .contact-page {
-    padding: 12px 0 25px;
+    padding: 15px 0 30px;
 }
 
 .contact-panel {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
     align-items: start;
-    gap: 8px;
-    width: calc(100% - 20px);
-    margin: 10px auto;
-    padding: 25px;
+    gap: 12px;
+    width: calc(100% - 40px);
+    margin: 20px auto;
+    padding: 35px;
     background: var(--light-gold);
     border: 3px solid var(--gold);
     border-radius: 15px;
@@ -513,12 +513,14 @@ main {
 .contact-panel .visite-part h2 {
     color: black;
     gap: 8px;
+    font-size: 25px;
+   font-weight: bold;
     
 }
 
 .contact-panel .contact-info p {
     color: black;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .contact-panel .contact-info a {
@@ -531,16 +533,13 @@ main {
 
 .map {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   min-width: 0;
 }
 
 .map iframe {
     display: block;
-    width: 100% !important;
-    max-width: 320px !important;
-    height: 220px !important;
+    width: 100%;
+    height: 350px;
     border: 3px solid var(--gold);
     border-radius: 12px;
 }
@@ -990,5 +989,4 @@ footer {
         line-height: 1.5;
     }
 }
-  
  
