@@ -429,15 +429,13 @@ main {
 .visite-part h2 {
     margin-bottom: 15px;
     color: var(--gold);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
-    line-height: 1;
 }
 
 .about-part p {
     color: #fbdcdc;
-    font-size: 13px;
-    line-height: 1;
+    font-size: 10px;
     text-align: left;
     word-spacing: normal;
 }
@@ -445,10 +443,10 @@ main {
 .contact-info p {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
     margin: 15px 0;
     color: #fbdcdc;
-    font-size: 14px;
+    font-size: 10px;
     line-height: 1;
     overflow-wrap: anywhere;
 }
@@ -480,12 +478,14 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+   height: 200px;
 }
 
 .view-col img {
     display: block;
     width: 100%;
-    height: 100%;
+    max-width: 280px;
+    height: 200px;
     object-fit: cover;
     border: 4px solid var(--gold);
     border-radius: 15px;
@@ -494,7 +494,7 @@ main {
 /* CONTACT PAGE */
 
 .contact-page {
-    padding: 15px 0 30px;
+    padding: 12px 0 25px;
 }
 
 .contact-panel {
@@ -502,9 +502,9 @@ main {
     grid-template-columns: 1fr 1.2fr;
     align-items: start;
     gap: 8px;
-    width: calc(100% - 40px);
-    margin: 20px auto;
-    padding: 35px;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 25px;
     background: var(--light-gold);
     border: 3px solid var(--gold);
     border-radius: 15px;
@@ -531,13 +531,16 @@ main {
 
 .map {
     width: 100%;
-    min-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .map iframe {
     display: block;
-    width: 100%;
-    height: 350px;
+    width: 100% !important;
+    max-width: 320px !important;
+    height: 220px !important;
     border: 3px solid var(--gold);
     border-radius: 12px;
 }
